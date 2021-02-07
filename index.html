@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+<html>
+<body>
+	{
+		font-family: 'Courier New', monospace;
+	}
+
+
+	<head>
+		<title>
+			21808122
+		</title>
+	</head>
+	<header>
+		<nav>
+			
+		</nav>
+	</header>
+
+	<body style="background-color:rgb(213,92,7);">
+		<h1>
+			<FONT face="garamond"><i>Zouiche Omar</i></FONT><BR>
+		</h1>
+		<section>
+			<h3>
+				<!-- <FONT face="Copperplate"> --> Présentation
+			</h3>
+			<FONT face="Copperplate">Site web de Zouiche Omar, étudiant en Licence 3 mathématiques à la faculté des sciences de Montpellier
+			<hr/>	
+		
+		</section>
+		<div class="w3-bar w3-black">
+			<button class="w3-bar-item w3-button" onclick="openCity('HLMA607')">HLMA607</button>
+	  		<button class="w3-bar-item w3-button" onclick="openCity('HLMA606')">HLMA606</button>
+	  		<button class="w3-bar-item w3-button" onclick="openCity('Divers')">Divers</button>
+	  		<button class="w3-bar-item w3-button" onclick="openCity('À propos')">À Propos</button>
+		</div>
+
+		<div id="HLMA607" class="w3-container city">
+  			<ul>
+  				<FONT face="Copperplate">
+  					1er élèment de la liste contenant un <a href="https://cas.umontpellier.fr/cas/login?service=https%3A%2F%2Fent.umontpellier.fr%2FuPortal%2FLogin" target="_blank">lien</a> <br> <!-- le target="_blank" permet d'ouvrir le lien dans une nouvelle fenêtre-->
+  					2eme élèment de la liste muni d'un <a href="vrai_tp.py" target="_blank"> code python </a> (la version <a href="vrai_tp.txt" target="_blank">fichier text </a>) <br>
+  					3eme élèment de la liste <br>
+  		</div>
+		<br/>
+		<!-- Comment faire une liste : 
+		<ul>
+			<FONT face="Copperplate">
+			<li>1er élèment de la liste</li>
+			<li>2ème élèment de la liste <img src="C:\Users\omarw\Desktop\Rafle\S6\siteweb\img\EkCXMUVXYAAC8oo.jpg" alt="image"></li>
+			<li>Page de Connexion au <a href="https://cas.umontpellier.fr/cas/login?service=https%3A%2F%2Fent.umontpellier.fr%2FuPortal%2FLogin">moodle</a> de l'UM </li>
+			<li>4ème élèment contenant un <a href="https://imag.umontpellier.fr/~mohamadi/index.html"> lien</a></li>
+			</FONT>
+		</ul>
+		-->
+		<script>
+			function openCity(cityName) {
+ 		 	var i;
+  			var x = document.getElementsByClassName("city");
+  			for (i = 0; i < x.length; i++) {
+    		x[i].style.display = "none";  
+    	}
+    	document.getElementById(cityName).style.display = "block";
+    	}
+		</script>
+	</body>
